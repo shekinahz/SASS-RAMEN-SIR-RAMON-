@@ -1,0 +1,12 @@
+@use '../abstract' as *;
+
+.block__header {
+    margin: 8rem 0;
+    text-align: center;
+    color: $clr-light;
+    p {
+        max-width: 75rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

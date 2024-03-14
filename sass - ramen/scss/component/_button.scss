@@ -1,0 +1,27 @@
+@use '../abstract' as *;
+.btn {
+    padding: 1rem 2.5rem;
+    margin: 2rem 0;
+   
+    font-family: "Speedee-Bold";
+    @include flex(center, center);
+    line-height: 1;
+    transition: .5s ease;
+    text-transform: uppercase;
+   
+    $colors: (
+    "light" : $clr-light,
+    "dark" : $clr-dark, 
+    );
+
+    @each $key, $val in $colors {
+
+    &-#{$key} {
+        background: #{$val};
+        &:hover {
+            background: #{$val};
+            }
+        }
+    }
+}
+

@@ -1,0 +1,18 @@
+:root {
+    --light : #fff;
+    --dark : #000;
+    --accent : #ec1010;
+    --yellow : #f9b35a;
+}
+
+
+$clr-light: var(--light);
+$clr-dark: var(--dark);
+$clr-accent: var(--accent);
+$clr-yellow: var(--yellow);
+
+$sm: "42rem";
+$md: "92rem";
+$lg: "144rem";
+$xl: "180rem";
+
